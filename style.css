@@ -1,0 +1,114 @@
+.top {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    word-spacing: 20px;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+}
+
+.span1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-style: italic;
+}
+
+.span2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 10px;
+    background-color: blue;
+    color: white;
+}
+
+.span3 {
+    background-color: black;
+    color: white;
+}
+
+.span4 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 15px;
+    background-color: blue;
+    padding: 0 10px;
+    color: white;
+    transform: rotate(15deg);
+}
+
+.top2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 30px auto 30px auto;
+    font-size: 40px;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner1 {
+    display: flex;
+    width: 30%;
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+}
+
+.img1 {
+    width: 50px;
+}
+
+.top3 {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.top4 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: bisque;
+
+}
+
+#banner2 {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.span5 {
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    background-color: gray;
+}
+
+.top5 {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
